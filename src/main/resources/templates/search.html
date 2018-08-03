@@ -2,19 +2,21 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121843222-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-121843222-1');
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7d9f5c2571bbd9ffc53f5aed1f395ca7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
 
+
     <meta charset="UTF-8">
-    <title>Products - Newtech Armor</title>
-    <meta name="Keywords" content="Body Armor, Level III Hard Armor Plate, Level IV Hard Armor Plate, Ballistic Armor, Body Armor Plates, Trauma PNewtech Armor provides perfect Level III Hard Armor Plates, Level IV Hard Armor Plates,Body Armor Plates.">
+    <title>防弹插板，防弹专区-江苏无锡钮钛科新材料科技有限公司</title>
+    <meta name="Keywords" content="III级防弹插板，IV级防弹插板，IIIA级防弹插板，陶瓷防弹插板">
+    <meta name="Description" content="无锡钮钛科致力于为客户提供防弹防护解决方案，专业从事III级防弹插板，IV级防弹插板，IIIA级防弹插板，陶瓷防弹插板的生产研发与销售，如果您有任何防弹防护装备采购需求，或是有任何建议都请立即联系我们（全国咨询热线：0510-65182889）">
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- master stylesheet -->
@@ -82,7 +84,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 sec-title colored text-center">
-                <h2>Products</h2>
+                <h2>产品</h2>
                 <span class="decor"><span class="inner"></span></span>
             </div>
         </div>
@@ -100,7 +102,7 @@
                         <input type="text" name="title" value="" placeholder="Key Words" id="search">
                         <i class="fa fa-search" id="search_icon"></i> -->
                         <form action="/search" name="searchForm">
-                            <input type="text" name="title" value="" placeholder="Key Words" id="search">
+                            <input type="text" name="title" value="" placeholder="关键词" id="search">
                             <i class="fa fa-search" id="search_icon" onclick="subSearchForm();"></i>
                         </form>
 
@@ -115,9 +117,9 @@
      <section class="pt-20">
         <div class="container">
                     <ul class="breadcumb">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/">主页</a></li>
                         <li><i class="fa fa-angle-right"></i></li>
-                        <li><span>Search</span></li>
+                        <li><span>产品</span></li>
                     </ul>
         </div>
     </section>
@@ -135,7 +137,7 @@
                         <img th:src="'http://api.newtecharmor.com/'+${#strings.listSplit(item.logo,',')[0]}" alt="">
                         <p th:text="${item.title}">FDY-101快穿式防弹背心</p>
                             <div class="cate-content text-center">
-                                <a th:href="'/product/'+${item.id}">View Detail</a>
+                                <a th:href="'/product/'+${item.id}">查看详情</a>
                             </div>
                     </div>
                 </div>
@@ -150,7 +152,7 @@
         <div class="clearfix">
             <div class="call-to-action-corner col-md-6"
                  style="background-image: url(/img/call-to-action/left-box-bg.jpg);">
-                <a href="http://www.newtecharmor.com/category/67">
+                <a href="/">
                     <div class="single-call-to-action open-hours">
                         <div class="img-box  pt-60 ">
                                 <div class="col-lg-2 col-md-2">
@@ -159,8 +161,8 @@
                             </div>
                       
                         <div class="content-box meet-doctors  pb-10 pl-10">
-                            <h3 class="title">Hard Armor Plate</h3>
-                            <p>Since 2005, in response to the escalating gun threat, we have been committed to improving our existing products and developing new materials and bulletproof equipments.</span>
+                            <h3 class="title">防弹插板</h3>
+                            <p>从2005年以来，为了应对不断升级的枪支威胁，我们一直致力于改进我们产品的设计与材料，使其能够拥有更轻的重量和更好的防护效果。同时我们也在不断的开发新的防弹插板产品。</span>
                             </p>
                         </div>
                     </div>
@@ -168,7 +170,7 @@
             </div>
             <div class="call-to-action-center col-md-6"
                  style="background-image: url(/img/call-to-action/center-box-bg.jpg);">
-                <a href="http://www.newtecharmor.com/category/64">
+                <a href="/">
                     <div class="single-call-to-action">
                         <div class="img-box  pt-60 ">
                                 <div class="col-lg-2 col-md-2">
@@ -176,8 +178,8 @@
                                 </div>
                             </div>
                         <div class="content-box meet-doctors pb-10 pl-10">
-                            <h3 class="title">Ballistic Vests</h3>
-                            <p>In recent years, with the aggravation of gun threats, ballistic vest has been used more and more widely. In response to this, we have paid more and more efforts on developing new products with various sizes and colors to meet the different needs of our customers.</span>
+                            <h3 class="title">防弹衣</h3>
+                            <p>随着防弹衣的使用和装备越来越广泛，我们不断地开发新的款式来满足客户的需求。同时作为国内老牌生产厂家，我们也有着丰富的生产经验。</span>
                             </p>
                         </div>
                     </div>

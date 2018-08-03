@@ -1,15 +1,16 @@
 ﻿<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121843222-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-121843222-1');
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7d9f5c2571bbd9ffc53f5aed1f395ca7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
+
 
 </head>
 <body oncontextmenu="return false" onselectstart="return false">
@@ -23,10 +24,10 @@
                         <a href="#">
                             <img src="/img/resources/footer-logo.png" alt="Awesome Image"/>
                         </a>
-                        <p><br>Please contact us below in the following ways</p>
+                        <p><br>如果您有任何疑问，请立即联系我们</p>
                         <ul class="contact">
-                            <li><i class="fa fa-map-marker"></i> <span>China Jiangsu Wuxi </span></li>
-                            <li><i class="fa fa-phone"></i> <span>+86(0)510-85182889</span></li>
+                            <li><i class="fa fa-map-marker"></i> <span>江苏省无锡市滨湖区胡埭工业园南区张舍路9号</span></li>
+                            <li><i class="fa fa-phone"></i> <span>0510-85182889</span></li>
                             <li><i class="fa fa-envelope-o"></i> <span>Info@newtecharmor.com</span></li>
                         </ul>
                         <ul class="social">
@@ -40,30 +41,29 @@
                 </div>
                 <div class="col-md-2 col-sm-6">
                     <div class="footer-widget quick-links">
-                        <h3 class="title">Newtech</h3>
+                        <h3 class="title">纽钛科新材料</h3>
                         <ul>
-                            <li><a href="/">Home</a>
+                            <li><a href="/">钮钛科首页</a>
                             </li>
-                            <li><a href="/search?title=">Products</a>
+                            <li><a href="/search?title=">产品中心</a>
                             </li>
-                            <li><a href="/news">News</a>
+                            <li><a href="/news">新闻资讯</a>
                             </li>
-                            <li><a href="/about">About</a>
+                            <li><a href="/about">关于钮钛科</a>
                             </li>
-                            <li><a href="/contact">Contact</a>
+                            <li><a href="/contact">联系我们</a>
                             </li>
-                            <li><a href="/sitemap">Website Map</a>
+                            <li><a href="/sitemap">网站地图</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6">
                     <div class="footer-widget quick-links">
-                        <h3 class="title">Products</h3>
+                        <h3 class="title">我们的产品</h3>
                         <ul>
 
-                            <li th:each="type : ${types}"><a th:href="'/category/'+${type.id}" th:text="${type.label}">NIJ III+ Hard Armor
-                                Plates</a>
+                            <li th:each="type : ${types}"><a th:href="'/category/'+${type.id}" th:text="${type.label}">III级防弹插板</a>
                             </li>
 
                         </ul>
@@ -73,7 +73,7 @@
                
                 <div class="col-md-3 latest-post col-sm-6">
                     <div class="footer-widget latest-post news-post">
-                        <h3 class="title">News</h3>
+                        <h3 class="title">新闻资讯</h3>
                         <ul>
                             <li th:each="item : ${newsLeft.data}">
                                 <div class="content">
@@ -87,7 +87,7 @@
                 </div>
                 <div class="col-md-2 col-sm-6">
                     <div class="footer-widget quick-links">
-                        <h3 class="title">Blogroll</h3>
+                        <h3 class="title">友情链接</h3>
                         <ul>
                             <li>
                                  </li>
@@ -99,7 +99,7 @@
     </div>
     <div class="footer-bottom">
         <div class="container text-center">
-            <p>Copyright &copy; 2018.Newtech Armor All rights reserved.</p>
+            <p>Copyright &copy; 2018.无锡纽钛科新材料科技有限公司 All rights reserved.</p>
         </div>
     </div>
 </footer>
