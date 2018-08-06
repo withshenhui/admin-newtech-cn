@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin-cn.iml" filepath="$PROJECT_DIR$/.idea/modules/admin-cn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin-cn_main.iml" filepath="$PROJECT_DIR$/.idea/modules/admin-cn_main.iml" group="admin-cn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin-cn_test.iml" filepath="$PROJECT_DIR$/.idea/modules/admin-cn_test.iml" group="admin-cn" />
       <module fileurl="file://$PROJECT_DIR$/niutaike_cn_boot.iml" filepath="$PROJECT_DIR$/niutaike_cn_boot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/niutaike_cn_boot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/niutaike_cn_boot_main.iml" group="niutaike_cn_boot" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/niutaike_cn_boot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/niutaike_cn_boot_test.iml" group="niutaike_cn_boot" />
     </modules>
   </component>
 </project>
